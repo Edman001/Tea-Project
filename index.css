@@ -1,0 +1,178 @@
+body{
+ font-family: Helvetica;
+ font-size: 22px;
+ color: seashell;
+ background-color: black;
+ opacity: 0.9;
+ color: aliceblue;
+ margin: 0px;
+ padding: 0px;
+}
+
+
+.position{
+    position: fixed;
+    z-index: 1;
+}
+
+
+#logo img{
+    height: 60px;
+    width:150px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.container nav ul li{
+    list-style: none;
+    display: inline-flex;
+    position: relative;
+    bottom: 60px;
+    left: 1030px;
+    
+}
+
+.container nav ul li a{
+    color: aliceblue;
+    padding: 10px;
+}
+
+.mission-cont{
+    text-align: center;
+    background-image: url(RESOURCES/img-mission-background.jpeg);
+    height: 700px;
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    bottom: 50px;
+}
+
+.mission{
+    background-color: black;
+    position: relative;
+    top: 10px;
+    
+}
+
+.mission,h2,h4{
+    margin: 0.2px;
+    padding: 10px;
+}
+
+.month{
+    margin-top: 50px;
+}
+
+.month-tea,h2,h4{
+    text-align: center;
+
+}
+
+
+.image-fig{
+   display: inline-flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: center;
+  
+}
+
+.image-fig figcaption{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+.fig-1 img{
+    height: 200px;
+    width: 300px;
+}
+
+.fig-2 img{
+    height: 200px;
+    width: 300px;
+}
+
+.fig-3 img{
+    height: 200px;
+    width: 300px;
+}
+
+.fig-4 img{
+    height: 200px;
+    width: 300px;
+}
+
+.fig-5 img{
+    height: 200px;
+    width: 300px;
+}
+
+
+.location{
+
+    background-image: url(RESOURCES/img-locations-background.jpeg);
+    height: 500px;
+    width: 1300px;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+
+}
+
+.location h2{
+    position: relative;
+    top: 40px;
+}
+
+.location-head{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:  space-around;
+    position: relative;
+    top: 40px;
+
+}
+
+.loca-1{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    margin: 5px;
+    text-align: center;
+}
+
+.loca-2{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    margin: 5px;
+    text-align: center;
+}
+
+.loca-3{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    margin: 5px;
+    text-align: center;
+}
+
+footer .final{
+    position: relative;
+    top: 50px;
+}
+
+footer p{
+    text-align: center;
+    margin: 60px;
+}
+
+footer .last{
+    text-align: left;
+}
